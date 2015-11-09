@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="public_key_marvel">f637e10ccf3819cfbc128eb2b37540ae</string>
+    <string name="private_key_marvel">653eaa914de50eb305abc85eb787fd1b014da6df</string>
+
+    <string name="public_key_twitter">mQwBBS40bh6i5u8wNHktKA24g</string>
+    <string name="private_key_twitter">7wxhMYJuwnIGWRSQ1oM4kHK2ieJmJyck3fpx0GLiFT3O7DGkjI</string>
+</resources>

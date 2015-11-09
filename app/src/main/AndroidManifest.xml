@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.upm.miw.dasm.marvelfanatics" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity_" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ComicDetailActivity_"
+            android:label="@string/title_activity_comic_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".social.twitter.AuthenticationActivity_" />
+        <activity android:name=".social.twitter.AuthenticationWebviewActivity_" >
+        </activity>
+        <activity android:name=".ComicMoreInfoActivity_" >
+        </activity>
+        <activity android:name=".social.twitter.TweetActivity_" >
+        </activity>
+        <activity android:name=".SavedComicsActivity_" >
+        </activity>
+    </application>
+
+</manifest>

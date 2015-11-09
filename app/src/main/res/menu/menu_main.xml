@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.upm.miw.dasm.marvelfanatics.MainActivity">
+    <item
+        android:id="@+id/actionViewSavedComicsList"
+        android:icon="@drawable/ic_view_list_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/view_saved_comics" />
+    <item
+        android:id="@+id/actionSocialSettings"
+        android:icon="@drawable/ic_account_circle_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/view_social_settings" />
+</menu>

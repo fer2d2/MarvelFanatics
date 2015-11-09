@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/latestComicsGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="@dimen/grid_column_width"
+        android:horizontalSpacing="@dimen/gridSpace"
+        android:numColumns="auto_fit"
+        android:padding="@dimen/gridSpace"
+        android:verticalSpacing="@dimen/gridSpace" />
+
+</LinearLayout>

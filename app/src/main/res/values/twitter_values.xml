@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="twitter_callback_url">https://www.etsisi.upm.es/miw</string>
+    <string name="url_twitter_oauth_verifier">oauth_verifier</string>
+</resources>

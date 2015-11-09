@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.clans.fab.FloatingActionMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/expandableButtonMenu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/fab_margin"
+    android:layout_marginLeft="@dimen/fab_margin"
+    android:layout_marginRight="@dimen/fab_margin"
+    app:layout_anchor="@id/comicDataList"
+    app:layout_anchorGravity="bottom|end"
+    fab:menu_colorNormal="@color/accent"
+    fab:menu_colorPressed="@color/accent">
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/actionViewSavedComicsListFromDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_view_list_white_24dp"
+        fab:fab_label="@string/view_saved_comics"
+        fab:fab_size="mini" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/actionShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_share_white_24dp"
+        fab:fab_label="@string/comic_detail_share"
+        fab:fab_size="mini" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/actionDeleteFavourite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_star_border_white_24dp"
+        fab:fab_label="@string/comic_detail_remove_favourite"
+        fab:fab_size="mini" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/actionMarkAsFavourite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_star_white_24dp"
+        fab:fab_label="@string/comic_detail_add_favourite"
+        fab:fab_size="mini" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/actionDeleteRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_visibility_off_white_24dp"
+        fab:fab_label="@string/comic_detail_remove_read"
+        fab:fab_size="mini" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/actionMarkAsRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_visibility_white_24dp"
+        fab:fab_label="@string/comic_detail_add_read"
+        fab:fab_size="mini" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/actionViewMoreInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_zoom_in_white_24dp"
+        fab:fab_label="@string/comic_detail_more_info"
+        fab:fab_size="mini" />
+
+</com.github.clans.fab.FloatingActionMenu>

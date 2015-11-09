@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:orientation="horizontal"
+    tools:showIn="@layout/activity_comic_detail">
+
+    <ImageView
+        android:id="@+id/indicatorFavourite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/indicator_margin"
+        android:layout_marginTop="@dimen/indicator_margin"
+        android:src="@drawable/ic_star_white_24dp" />
+
+    <ImageView
+        android:id="@+id/indicatorUnfavourite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/indicator_margin"
+        android:layout_marginTop="@dimen/indicator_margin"
+        android:src="@drawable/ic_star_border_white_24dp" />
+
+    <ImageView
+        android:id="@+id/indicatorRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/indicator_margin"
+        android:layout_marginTop="@dimen/indicator_margin"
+        android:src="@drawable/ic_visibility_white_24dp" />
+
+    <ImageView
+        android:id="@+id/indicatorUnread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/indicator_margin"
+        android:layout_marginTop="@dimen/indicator_margin"
+        android:src="@drawable/ic_visibility_off_white_24dp" />
+</LinearLayout>

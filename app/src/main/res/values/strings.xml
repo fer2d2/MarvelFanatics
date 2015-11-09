@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Marvel Maniacs</string>
+    <string name="nombre_transicion_imagen">imagen_compartida</string>
+    <string name="title_activity_comic_detail">ComicDetailActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile_management">ProfileManagementActivity</string>
+    <string name="view_saved_comics">View saved comics</string>
+    <string name="view_social_settings">Social settings</string>
+    <string name="comic_detail_share">Share</string>
+    <string name="comic_detail_remove_favourite">Remove favourite</string>
+    <string name="comic_detail_add_favourite">Mark as favourite</string>
+    <string name="comic_detail_remove_read">Remove read</string>
+    <string name="comic_detail_add_read">Mark as read</string>
+    <string name="comic_detail_more_info">View more info</string>
+    <string name="comic_detail_extra">COMIC_DETAIL</string>
+    <string name="latest_comics_title">Latest comics</string>
+    <string name="share_title">Social sharing</string>
+    <string name="saved_comics_title">Saved comics</string>
+    <string name="social_login">LOGIN</string>
+    <string name="profile_image">Profile image</string>
+    <string name="social_logout">LOGOUT</string>
+    <string name="comic_creators">Creators</string>
+    <string name="send_tweet_action">Send tweet</string>
+</resources>
